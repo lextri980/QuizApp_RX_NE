@@ -1,0 +1,71 @@
+.sidebar {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 17%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+    margin: 15px 0;
+  }
+
+  .banner {
+    height: 130px;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: contain;
+  }
+
+  .ques {
+    background-color: rgb(28, 23, 46);
+    width: 100%;
+    height: 540px;
+
+    .allQues {
+      cursor: pointer;
+      background-color: rgb(28, 23, 46);
+      display: flex;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      width: 100%;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+
+      &:hover {
+        background-color: rgb(17, 0, 78);
+        display: block;
+        padding-left: 40px;
+      }
+    }
+
+    .addQues {
+      cursor: pointer;
+      border: none;
+      height: 60px;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      background-color: rgb(28, 23, 46);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+
+      &:hover {
+        background-color: rgb(17, 0, 78);
+        display: block;
+        padding-left: 40px;
+      }
+    }
+  }
+}
