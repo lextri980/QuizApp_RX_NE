@@ -1,4 +1,3 @@
-# QuizApp_RX_NE
 # Quiz App
 
 ### Abstract
